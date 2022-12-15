@@ -9,9 +9,9 @@ int main(void)
 	unsigned int a = 2;
 	unsigned long n = 612852475143;
 
-	while (a !=n)
+	while (a ! = n)
 	{
-		if (n% a ==0)
+		if (n % a == 0)
 		{
 			n = n / a;
 		} else
@@ -19,6 +19,6 @@ int main(void)
 			a++;
 		}
 	}
-	printf("%lu\n" , n);
+	printf("%lu\n", n);
 	return (0);
 }
