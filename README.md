@@ -7,3 +7,5 @@
 0x06. C - More pointers, arrays and strings
 0x07. C - Even more pointers, arrays and strings
 0x08. C - Recursion
+0x09. C - Static libraries
+0x0A. C - argc, argv
