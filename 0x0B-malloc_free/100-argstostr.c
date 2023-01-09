@@ -27,10 +27,8 @@ char *argstostr(int ac, char **av)
 	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; av[i][j]; j++)
-		{
-	mer[r] = av[i][j];
-	r++;
-		}
+			mer[r] = av[i][j];
+		r++;
 		if (mer[r] == '\0')
 		{
 			mer[r++] = '\n';
